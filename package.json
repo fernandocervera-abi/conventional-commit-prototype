@@ -1,5 +1,11 @@
 {
   "private": true,
   "name": "conventional-commit-prototype",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.0"
+  }
 }
