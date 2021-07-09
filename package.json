@@ -3,6 +3,7 @@
   "name": "conventional-commit-prototype",
   "version": "0.0.1",
   "scripts": {
+    "prepare": "husky install",
     "release": "standard-version"
   },
   "devDependencies": {
