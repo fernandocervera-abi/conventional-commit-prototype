@@ -3,9 +3,13 @@
   "name": "conventional-commit-prototype",
   "version": "0.0.1",
   "scripts": {
+    "prepare": "husky install",
     "release": "standard-version"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^7.0.1",
     "standard-version": "^9.3.0"
   }
 }
